@@ -1,0 +1,26 @@
+{
+  "name": "dazn-tests",
+  "version": "1.0.0",
+  "description": "Automation framework for Running Zoopla tests ",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "tsc && protractor ./_out/config/config.js",
+    "start": "npm install && ./node_modules/protractor/bin/webdriver-manager update",
+    "protractor": "./node_modules/protractor/built/cli.js"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.3.5",
+    "@types/node": "^12.0.0",
+    "jasmine": "^3.5.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-expect": "^4.0.3",
+    "protractor": "^5.4.4",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5",
+    "webdriver-manager": "^12.1.7",
+    "protractor-screenshoter-plugin": "^0.10.3"
+  }
+}
