@@ -1,7 +1,7 @@
 {
   "name": "dazn-tests",
   "version": "1.0.0",
-  "description": "Automation framework for Running Zoopla tests ",
+  "description": "Automation framework for Running tests ",
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
